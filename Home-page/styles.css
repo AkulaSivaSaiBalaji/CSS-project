@@ -190,3 +190,85 @@ nav a:hover{
     color: rgb(15, 159, 102);
     background-color: rgb(221, 214, 214);
 }
+
+.banner-img{
+    padding-top: 70px;
+    display: flex;
+    flex-direction: column;
+    width: 85%;
+    margin:auto;
+}
+
+.banner-img .heading{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 180px;
+    width: 100%;
+    height: 100px;
+}
+
+.banner-img .heading .buttons{
+    display: flex;
+    gap: 20px;
+}
+
+.banner-img .items{
+    display: flex;
+    justify-content: space-between;
+}
+
+.items .T-shirt{
+    width: 200px;
+    height: 230px;
+    border: 1px solid;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.items .T-shirt img{
+    padding: 10px;
+    width: 190px;
+    height: 190px;
+}
+
+.items .Bags{
+    width: 190px;
+    height: 190px;
+}
+
+.items .Bags img{
+    width: 190px;
+    height: 190px;
+}
+
+.items .Sandal{
+    width: 190px;
+    height: 190px;
+}
+
+.items .Sandal img{
+    width: 190px;
+    height: 190px;
+}
+
+.items .Scarf-Cap{
+    width: 190px;
+    height: 190px;
+}
+
+.items .Scarf-Cap  img{
+    width: 190px;
+    height: 190px;
+}
+
+.items .Shoes{
+    width: 190px;
+    height: 190px;
+}
+
+.items .Shoes img{
+    width: 190px;
+    height: 190px;
+}
