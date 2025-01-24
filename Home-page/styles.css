@@ -208,9 +208,28 @@ nav a:hover{
     height: 100px;
 }
 
+.banner-img .heading h3{
+    font-size:x-large;
+}
+
+.banner-img .heading #first-word{
+    color: rgb(15, 159, 102);
+    font-size: xx-large;
+}
+
 .banner-img .heading .buttons{
     display: flex;
     gap: 20px;
+}
+
+.banner-img .heading .buttons button{
+    padding: 5px;
+    height: 30px;
+    width: 30px;
+    border-radius: 40%;
+    border: none;
+    background-color: rgb(236, 234, 234);
+    color: rgb(15, 159, 102);
 }
 
 .banner-img .items{
@@ -221,54 +240,106 @@ nav a:hover{
 .items .T-shirt{
     width: 200px;
     height: 230px;
-    border: 1px solid;
+    border: 1px solid rgb(110, 231, 183);
+    border-radius: 15px;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
 .items .T-shirt img{
+    border-radius: 20px;
     padding: 10px;
     width: 190px;
     height: 190px;
 }
 
+.items .T-shirt p{
+    color: rgb(102, 100, 100);
+}
+
 .items .Bags{
-    width: 190px;
-    height: 190px;
+    width: 200px;
+    height: 230px;
+    border: 1px solid rgb(110, 231, 183);
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .items .Bags img{
+    border-radius: 20px;
+    padding: 10px;
     width: 190px;
     height: 190px;
 }
 
+.items .Bags p{
+
+    color: rgb(102,100,100);
+}
+    
+
 .items .Sandal{
-    width: 190px;
-    height: 190px;
+    width: 200px;
+    height: 230px;
+    border: 1px solid rgb(110, 231, 183);
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .items .Sandal img{
+    border-radius: 20px;
+    padding: 10px;
     width: 190px;
     height: 190px;
+}
+
+.items .Sandal p{
+    color: rgb(102,100,100);
 }
 
 .items .Scarf-Cap{
-    width: 190px;
-    height: 190px;
+    width: 200px;
+    height: 230px;
+    border: 1px solid rgb(110, 231, 183);
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .items .Scarf-Cap  img{
+    border-radius: 20px;
+    padding: 10px;
     width: 190px;
     height: 190px;
+}
+
+.items .Scarf-Cap p{
+    color: rgb(102,100,100);
 }
 
 .items .Shoes{
+    width: 200px;
+    height: 230px;
+    border: 1px solid rgb(110, 231, 183);
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.items .Shoes img{
+    border-radius: 20px;
+    padding: 10px;
     width: 190px;
     height: 190px;
 }
 
-.items .Shoes img{
-    width: 190px;
-    height: 190px;
+.items .Shoes p{
+    color: rgb(102,100,100);
 }
