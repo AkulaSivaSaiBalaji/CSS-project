@@ -227,7 +227,7 @@ nav a:hover{
     height: 30px;
     width: 30px;
     border-radius: 40%;
-    border: none;
+    border: 1px solid rgb(15, 159, 102);
     background-color: rgb(236, 234, 234);
     color: rgb(15, 159, 102);
 }
@@ -342,4 +342,326 @@ nav a:hover{
 
 .items .Shoes p{
     color: rgb(102,100,100);
+}
+
+section{
+    width: 85%;
+    margin: auto;
+    padding-top: 40px;
+    display: flex;
+    flex-direction: column;
+}
+
+section .featured-buttons{
+    display: flex;
+    gap: 30px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+section .featured-buttons button{
+    padding: 15px;
+    border: none;
+    border-radius: 5px;
+    background-color: lightgray;
+}
+
+section .featured-buttons button:hover{
+    background-color: peachpuff;
+    color: rgb(15, 159, 102);
+}
+
+.products{
+    display: flex;
+    flex-direction: column;
+}
+
+.products .one{
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+    gap: 40px;
+}
+
+.products .one .shirt-one{
+    height: 500px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    border: 1px solid rgb(110, 231, 183);
+    border-radius: 15px;
+    position: relative;
+}
+
+.products .one .shirt-one .Hot{
+    height: 20px;
+    width: 40px;
+    border: 1px solid;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    background-color: rgb(230, 101, 123);
+    color: white;
+    position: absolute;
+    top: 20px;
+    left: 25px;
+}
+
+.products .one .shirt-one img{
+    height: 360px;
+    width: 360px;
+    margin-left: 20px;
+    margin-top: 10px;
+    border-radius: 15px;
+}
+
+.products .one .shirt-one .info-1{
+    display: flex;
+}
+
+.info-1 .details-1{
+    width: 85%;
+    margin-left: 20px;
+}
+
+.info-1 .details-1 #p-1,#p-2{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.info-1 .details-1 #h-1{
+    margin-top: 10px;
+    margin-bottom: 0px;
+    font-size: large;
+}
+
+.info-1 .details-1 #p-1{
+    color: rgb(132, 130, 130);
+    font-size: small;
+}
+
+ .info-1 .details-1 #p-2{
+    margin-top: 5px;
+    margin-bottom:0px;
+    color: rgb(222, 207, 3);
+}
+
+.info-1 .details-1 #h-2{
+    margin-top: 5px;
+    color: rgb(15, 159, 102);
+    font-size: large;
+}
+
+.info-1 .details-1 #h-2 span{
+    font-size: small;
+    text-decoration: line-through;
+    color: rgb(132, 130, 130);
+}
+
+.info-1 .shop-button-1{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    height: 115px;
+    width: 60px;
+}
+
+.info-1 .shop-button-1 button{
+    border-radius: 50%;
+    border: none;
+    margin-right: 10px;
+    height: 40px;
+    width: 40px;
+    background-color: rgb(214, 236, 228);
+}
+
+.products .one .shirt-two{
+    height: 500px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    border: 1px solid rgb(110, 231, 183);
+    border-radius: 15px;
+    position: relative;
+}
+
+.products .one .shirt-two .Hot{
+    height: 20px;
+    width: 40px;
+    border: 1px solid;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    background-color: rgb(15, 159, 102);
+    color: white;
+    position: absolute;
+    top: 20px;
+    left: 25px;
+}
+
+.products .one .shirt-two img{
+    height: 360px;
+    width: 360px;
+    margin-left: 20px;
+    margin-top: 10px;
+    border-radius: 15px;
+}
+
+.products .one .shirt-two .info-2{
+    display: flex;
+}
+
+.products .one .info-2 .details-2{
+    width: 85%;
+    margin-left: 20px;
+}
+
+.info-2 .details-2 #p-1,#p-2{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.info-2 .details-2 #h-1{
+    margin-top: 10px;
+    margin-bottom: 0px;
+    font-size: large;
+}
+
+.info-2 .details-2 #p-1{
+    color: rgb(132, 130, 130);
+    font-size: small;
+}
+
+ .info-2 .details-2 #p-2{
+    margin-top: 5px;
+    margin-bottom:0px;
+    color: rgb(222, 207, 3);
+}
+
+.info-2 .details-2 #h-2{
+    margin-top: 5px;
+    color: rgb(15, 159, 102);
+    font-size: large;
+}
+
+.info-2 .details-2 #h-2 span{
+    font-size: small;
+    text-decoration: line-through;
+    color: rgb(132, 130, 130);
+}
+
+.info-2 .shop-button-2{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    height: 115px;
+    width: 60px;
+}
+
+.info-2 .shop-button-2 button{
+    border-radius: 50%;
+    border: none;
+    margin-right: 10px;
+    height: 40px;
+    width: 40px;
+    background-color: rgb(214, 236, 228);
+}
+
+
+.products .one .shirt-three{
+    height: 500px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    border: 1px solid rgb(110, 231, 183);
+    border-radius: 15px;
+    position: relative;
+}
+
+.products .one .shirt-three .Hot{
+    height: 20px;
+    width: 40px;
+    border: 1px solid;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    background-color: rgb(233, 189, 150);
+    color: white;
+    position: absolute;
+    top: 20px;
+    left: 25px;
+}
+
+.products .one .shirt-three img{
+    height: 360px;
+    width: 360px;
+    margin-left: 20px;
+    margin-top: 10px;
+    border-radius: 15px;
+}
+
+.products .one .shirt-three .info-3{
+    display: flex;
+}
+
+.info-3 .details-3{
+    width: 85%;
+    margin-left: 20px;
+}
+
+.info-3 .details-3 #p-1,#p-2{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.info-3 .details-3 #h-1{
+    margin-top: 10px;
+    margin-bottom: 0px;
+    font-size: large;
+}
+
+.info-3 .details-3 #p-1{
+    color: rgb(132, 130, 130);
+    font-size: small;
+}
+
+ .info-3 .details-3 #p-2{
+    margin-top: 5px;
+    margin-bottom:0px;
+    color: rgb(222, 207, 3);
+}
+
+.info-3 .details-3 #h-2{
+    margin-top: 5px;
+    color: rgb(15, 159, 102);
+    font-size: large;
+}
+
+.info-3 .details-3 #h-2 span{
+    font-size: small;
+    text-decoration: line-through;
+    color: rgb(132, 130, 130);
+}
+
+.info-3 .shop-button-3{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    height: 115px;
+    width: 60px;
+}
+
+.info-3 .shop-button-3 button{
+    border-radius: 50%;
+    border: none;
+    margin-right: 10px;
+    height: 40px;
+    width: 40px;
+    background-color: rgb(214, 236, 228);
 }
