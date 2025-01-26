@@ -409,12 +409,49 @@ section .featured-buttons button:hover{
     left: 25px;
 }
 
-.products .one .shirt-one img{
-    height: 360px;
+.shirt-one .image-container{
+    perspective: 1000px;
+}
+
+.shirt-one .image-container .image-box{
     width: 360px;
+    height: 360px;
     margin-left: 20px;
     margin-top: 10px;
+    position: relative;
+    transform-style: preserve-3d; 
+    transition: transform 0.6s;
+}
+
+.shirt-one .image-container:hover .image-box{
+    transform: rotateY(180deg);
+}
+
+.products .one .shirt-one .front img{
+    height: 360px;
+    width: 360px;
     border-radius: 15px;
+}
+
+.products .one .shirt-one .back img{
+    height: 360px;
+    width: 360px;
+    border-radius: 15px;
+}
+
+.shirt-one .front,.back{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+}
+
+.shirt-one .front{
+    z-index: 2;
+}
+
+.shirt-one .back{
+    transform: rotateY(180deg);
 }
 
 .products .one .shirt-one .info-1{
@@ -503,12 +540,49 @@ section .featured-buttons button:hover{
     left: 25px;
 }
 
-.products .one .shirt-two img{
-    height: 360px;
+.shirt-two .image-container{
+    perspective: 1000px;
+}
+
+.shirt-two .image-container .image-box{
     width: 360px;
+    height: 360px;
     margin-left: 20px;
     margin-top: 10px;
+    position: relative;
+    transform-style: preserve-3d; 
+    transition: transform 0.6s;
+}
+
+.shirt-two .image-container:hover .image-box{
+    transform: rotateY(180deg);
+}
+
+.products .one .shirt-two .front img{
+    height: 360px;
+    width: 360px;
     border-radius: 15px;
+}
+
+.products .one .shirt-two .back img{
+    height: 360px;
+    width: 360px;
+    border-radius: 15px;
+}
+
+.shirt-two .front,.back{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+}
+
+.shirt-two .front{
+    z-index: 2;
+}
+
+.shirt-two .back{
+    transform: rotateY(180deg);
 }
 
 .products .one .shirt-two .info-2{
@@ -598,12 +672,49 @@ section .featured-buttons button:hover{
     left: 25px;
 }
 
-.products .one .shirt-three img{
-    height: 360px;
+.shirt-three .image-container{
+    perspective: 1000px;
+}
+
+.shirt-three .image-container .image-box{
     width: 360px;
+    height: 360px;
     margin-left: 20px;
     margin-top: 10px;
+    position: relative;
+    transform-style: preserve-3d; 
+    transition: transform 0.6s;
+}
+
+.shirt-three .image-container:hover .image-box{
+    transform: rotateY(180deg);
+}
+
+.products .one .shirt-three .front img{
+    height: 360px;
+    width: 360px;
     border-radius: 15px;
+}
+
+.products .one .shirt-three .back img{
+    height: 360px;
+    width: 360px;
+    border-radius: 15px;
+}
+
+.shirt-three .front,.back{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+}
+
+.shirt-three .front{
+    z-index: 2;
+}
+
+.shirt-three .back{
+    transform: rotateY(180deg);
 }
 
 .products .one .shirt-three .info-3{
